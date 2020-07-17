@@ -2,7 +2,7 @@ const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 <link rel="stylesheet" href="./components/appHeader/appHeader.css"/>
 <header>
-<span>WEB COMPONENTS APP | IMDB MOVIE API | </span>
+<span>WEB COMPONENTS APP | IMDB MOVIE SEACRH | </span>
 <span> <a href="https://eyupucmaz.github.io" target="_blank">  @eyupucmaz</a></span>
 </header>
 `;
