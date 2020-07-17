@@ -25,12 +25,15 @@ async function searchMovie() {
 			description: `Year:${movie.Year}/Type:${movie.Type}`,
 			imdbID: movie.imdbID,
 			poster:
-				movie.Poster == "N/A" ? "/assets/images/default.png" : movie.Poster,
+				movie.Poster == "N/A"
+					? `${location.host}/assets/images/default.png`
+					: movie.Poster,
 			isFavourite: false,
 		};
 	});
 
 	console.log(movies);
+	console.log(`${location.host}/assets/images/default.png`);
 	prepareMovies(movies);
 	// Poster: "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg"
 	// Title: "Captain Marvel"
