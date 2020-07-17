@@ -39,7 +39,7 @@ async function searchMovie() {
 	// imdbID: "tt4154664"
 }
 
-// To PREPARE THE MOVIES
+// ! To PREPARE THE MOVIES
 function prepareMovies(movies) {
 	document.querySelector("#movies").innerHTML = "";
 	movies.forEach((movie) => {
@@ -53,5 +53,3 @@ function prepareMovies(movies) {
 		document.querySelector("#movies").append(movieCard);
 	});
 }
-
-// prepareMovies(movies);
