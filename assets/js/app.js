@@ -27,8 +27,7 @@ const searchText = document.querySelector(".search_text");
 // ! API CONFIGURATION
 const apiKey = "872dab8b";
 
-var dataAPI = `http://www.omdbapi.com/?apikey=${apiKey}&`;
-var posterAPI = `http://img.omdbapi.com/?apikey=${apiKey}&`;
+var dataAPI = `https://www.omdbapi.com/?apikey=${apiKey}&`;
 
 searchText.addEventListener("keydown", (event) => {
 	if (event.keyCode === 13) {
