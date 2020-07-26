@@ -2,4 +2,4 @@
 
 **This project about custom web components. And you can search movies on imdb**
 
-_Specail thanks [kablosuzKedi](https://www.youtube.com/channel/UCYT5QTr38bwp85Pka8YSVIg)_
+_Special thanks [kablosuzKedi](https://www.youtube.com/channel/UCYT5QTr38bwp85Pka8YSVIg)_
